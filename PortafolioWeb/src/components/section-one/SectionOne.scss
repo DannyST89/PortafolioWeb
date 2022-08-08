@@ -1,0 +1,38 @@
+$border-img-perfil: black;
+$background-img-perfil: #0d1117;
+
+.section-one-container {
+  color: black;
+  display: flex;
+
+  .section-one-imgPerfil {
+    width: 50%;
+    height: 30rem;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      height: 10rem;
+      width: 10rem;
+      border-radius: 50%;
+    }
+  }
+  .section-one-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 10rem;
+  }
+}
+
+
+
+@media (max-width: 575px) {
+    .section-one-container {
+        display: block;
+        height: 100vh;
+    }
+}

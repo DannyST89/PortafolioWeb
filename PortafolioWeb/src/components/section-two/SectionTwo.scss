@@ -1,0 +1,22 @@
+@use '../../variables.scss';
+
+.section-two-languages {
+    display: flex;
+    font-size: 3rem;
+    color: variables.$typescript-icon-color;
+    height: 20rem;
+}
+.langueges-Icons {
+    color: #000;
+}
+.section-two-languages { 
+    display: flex;
+    flex-direction: row;
+    color: red;
+    background-color: aqua;
+    
+}
+.icon-style {
+    font-size: 10rem;
+    background-color: #000;
+}

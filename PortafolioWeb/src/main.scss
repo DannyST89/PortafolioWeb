@@ -1,0 +1,11 @@
+@use 'variables';
+
+@use './components/section-one/SectionOne.scss';
+@use './components/section-two/SectionTwo.scss';
+@use './pages/Index.scss';
+
+* {
+    box-sizing: border-box;    
+    color: variables.$text-color-white;
+    font-family: variables.$main-font-size;
+}

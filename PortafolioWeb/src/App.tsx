@@ -1,13 +1,19 @@
-import { useState } from 'react'
+
+import { Container } from 'react-bootstrap'
+import { Route, Routes } from 'react-router-dom'
+import { AppNavbar } from './components/navbar/AppNavbar'
+import { Index } from './pages/Index'
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
-     hello from react
-    </div>
+      <>
+        <AppNavbar />
+         <Routes>
+          <Route path="/" element={<Index />} />
+        </Routes>
+      </>   
   )
 }
 
